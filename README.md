@@ -11,7 +11,7 @@ In this app we:
 - I simulate simple data from a database in /data/users.js.
 - We use a templating engine called EJS to create and serve fully dynamic HTML pages for any user in our users.js. Also the /users page.
 - We created our own API endpoint which can be retreived by anyone using fetch and an accept: json header in /users/api, which returns a JSON list of all our users.
-- 
+  
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
   In order to test the code out for yourself, you can clone the repository from GitHub or do it locally using git-bash or command prompt.
