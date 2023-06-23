@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Biggest contributors</title>
+  <link rel="stylesheet" href="/public/user_main.css">
+</head>
+<body>
+  <h1>Welcome to the list of our contributors!</h1>
+  <div class="user-card">
+    <ul>
+        <% user_map.forEach(function(user) {  %>
+            <li>
+                <a href="/users/<%= user.id %>"><%= user.name %></a>
+            </li>
+            <% }) %>
+    </ul>
+  </div>
+  <a id="home" class="home" href="/">Home</a>
+
+  <h3 style="margin-bottom: 30px">We also have an API endpoint you can use which returns the list of all our contributors as JSON.
+        You can call it via fetch and by setting the "Accept" header to be "application/json"</h3>
+        <code>fetch("http://127.0.0.1:3000/users/api", {
+         headers: {
+           Accept: "application/json",
+         },
+       })
+       <br>
+         .then((response) => response.json())
+         .then((data) => console.log(data))
+         .catch((error) => console.error(error));</code>
+</body>
+</html>

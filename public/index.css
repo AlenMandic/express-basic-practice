@@ -1,0 +1,62 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
+body {
+ padding: 5px;
+ margin: 5px;
+ background: linear-gradient(to right, rgb(163, 180, 163), rgb(130, 130, 165));
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+a:focus {
+    color: white;
+    background-color: black;
+}
+
+.buttons-main {
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+}
+
+.game {
+    margin-top: 60px;
+}
+
+#game-input {
+    width: 100px;
+    height: 30px;
+}
+
+#go {
+    width: 70px;
+    height: 30px;
+}
+
+#result {
+    font-size: 28px;
+}
+
+#gif {
+  width: 500px;
+  height: 300px;
+  border-radius: 4px;
+  display: none;
+}

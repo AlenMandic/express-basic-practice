@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>User Page</title>
+  <link rel="stylesheet" href="/public/users.css">
+</head>
+<body>
+  <div class="user-card">
+    <h1>Contributor <%= user.name %></h1>
+    <img src="/public/images/<%= user.profile_src %>" class="headshot">
+    <p>Contact me: Email: <%= user.email %></p>
+    <p style="font-size: 24px">About me: <%= user.about %></p>
+    <a href="/users">Back</a>
+  </div>
+</body>
+</html>

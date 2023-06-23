@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/index.css">
+    <script src="/public/main.js" defer></script>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Welcome to our home page.</h1>
+    <div class="buttons-main">
+        <a href="/about.html">About us</a>
+        <a href="/users">Main contributors</a>
+    </div>
+    <div class="game">
+        <h3>Guessing game!</h3>
+        <p>On our server i generate a secret random number between 1-10, if you can guess it you win a surprise!</p>
+        <div class="game-interface">
+        <label>Try your luck:</label>
+        <input type="number" placeholder="1-10" id="game-input" min="1" max="10">
+        <button id="go">Go!</button>
+        <p id="result"></p>
+        <img src="https://media.giphy.com/media/1zkMbX7k4nd1AM4i4k/giphy-downsized-large.gif" alt="funny GIF" width="100%" id="gif">
+        </div>
+    </div>
+</body>
+</html>

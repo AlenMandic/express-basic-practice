@@ -1,0 +1,31 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
+body {
+ padding: 5px;
+ margin: 5px;
+ background: linear-gradient(to right, rgb(163, 180, 163), rgb(130, 130, 165));
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+a:focus {
+    color: white;
+    background-color: black;
+}

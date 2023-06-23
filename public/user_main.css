@@ -1,0 +1,68 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;    
+}
+
+body {
+ padding: 5px;
+ margin: 5px;
+ background: linear-gradient(to right, rgb(163, 180, 163), rgb(130, 130, 165));
+}
+
+#home {
+    margin-left: 40px;
+    display: block;
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    font-size: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+    border-radius: 4px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+a:hover {
+    color: white;
+    background-color: black;
+}
+
+a:focus {
+    color: white;
+    background-color: black;
+}
+
+.user-card > ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.user-card > ul > li > a {
+    display: flex;
+    align-items: center;
+    padding-left: 5px;
+    width: 250px;
+    height: 50px;
+}
+
+code {
+    width: 420px;
+    display: -webkit-box;
+    font-size: 20px;
+    background-color: white;
+    color: black;
+    border-radius: 4px;
+    padding: 5px;
+}
