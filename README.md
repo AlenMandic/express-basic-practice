@@ -21,6 +21,6 @@ In this app we:
       - npm install express
       - npm install ejs
       - npm install cors
-   - Then while you're in the root directory of the folder just run npm start or node server.js in the terminal to start the app.
+   - Then while you're in the root directory of the folder just run 'npm start' or 'node server.js' in the terminal to start the app.
 
 MIT LICENSE
