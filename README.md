@@ -14,13 +14,13 @@ In this app we:
   
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
-  In order to test the code out for yourself, you can clone the repository from GitHub or do it locally using git-bash or command prompt.
+  In order to test the code out for yourself, you can clone the repository from GitHub or do it locally using git bash or command prompt.
    - Create a new empty folder for this project
-   - Open git bash in that folders location and run:  git clone https://github.com/AlenMandic/express-basic-practice
+   - Open git bash in that folders location and run:  `git clone https://github.com/AlenMandic/express-basic-practice`
    - while in the terminal install needed Node dependencies:
-      - npm install express
-      - npm install ejs
-      - npm install cors
-   - Then while you're in the root directory of the folder just run 'npm start' or 'node server.js' in the terminal to start the app.
+      - `npm install express`
+      - `npm install ejs`
+      - `npm install cors`
+   - Then while you're in the root directory of the folder just run `npm start` or `node server.js` in the terminal to start the app.
 
 MIT LICENSE
