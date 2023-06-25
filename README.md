@@ -4,13 +4,13 @@ A very basic node/express server with simple full-stack capablities. For learnin
 This app can be used or cloned/forked by anyone if they want to play around with the code. Meant for NodeJS begginers. Instructions at the bottom.
 
 In this app we:
-- We set up a basic Express.js server in server.js as the base of our app
+- We set up a basic `Express.js` server in `server.js` as the base of our app
 - Routing: We handle different routes from their own file. Including GET, and POST requests coming in from the client side.
 - We create basic middleware functions including a simple error handler
-- We serve static files from our /public/ folder using express.static
-- I simulate simple data from a database in /data/users.js.
-- We use a templating engine called EJS to create and serve fully dynamic HTML pages for any user in our users.js. Also the /users page.
-- We created our own API endpoint which can be retreived by anyone using fetch and an accept: json header in /users/api, which returns a JSON list of all our users.
+- We serve static files from our `/public/` folder using express.static
+- I simulate simple data from a database in `/data/users.js`.
+- We use a templating engine called `EJS` to create and serve fully dynamic HTML pages for any user in our `users.js`. Also the `/users` page.
+- We created our own API endpoint which can be retreived by anyone using fetch and an accept: json header in `/users/api`, which returns a JSON list of all our users.
   
 ------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
